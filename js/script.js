@@ -20,7 +20,7 @@ const tabNav = new TabNav(
   '[data-tab="menu"] li',
   '[data-tab="content"] section'
 );
-accordion.init();
+tabNav.init();
 
 initModal();
 initTooltip();
