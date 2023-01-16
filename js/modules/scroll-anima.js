@@ -18,7 +18,6 @@ export default class ScrollAnime {
         offset: Math.floor(offset) - this.windowMetade,
       };
     });
-    console.log(this.distances);
   }
 
   // Verifica a distância de cada objeto
